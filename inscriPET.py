@@ -16,6 +16,8 @@
         - Trocar para autorização via OAuth2
             - https://github.com/burnash/gspread#alternate-authorization-using-oauth2
 
+        - Organizar os blocos try/except
+
         - Deixar o programa em loop
             - O usuário deve decidir quando fechar o programa
 
@@ -63,9 +65,8 @@ def ler_codigo_barras():
         return str(codigo.data)
 
 def ler_dados():
-
     COD = ""
-    while True: # permanece em loop até que se obtenha um código valido
+    while True: # permanece em loop até que se obtenha um código válido
 
         print "Posicione a carteirinha em frente à webcam"
 
@@ -85,7 +86,7 @@ def ler_dados():
     MAIL = raw_input('E-mail (ex.: aluno@mail.com): ')
     FONE = raw_input('Telefone (ex.: 41 9988-7766): ')
 
-    # obtem data e hora no formato das planilhas Google
+    # obtém data e hora no formato das planilhas Google
     t = datetime.now()
     HORA = str(str(t.day) + '/' + str(t.month) + '/' + str(t.year) +
                ' ' + str(t.hour) + ':' + str(t.minute) + ':' + str(t.second))
