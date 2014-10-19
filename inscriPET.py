@@ -33,7 +33,7 @@
             - Fechar a janela do zbar após a leitura do código
 
         - Função enviar_dados()
-            - Fazer a busca do GRR pelo comando 'find' e não "linha-a-linha"
+            - Fazer a busca do código de barras pelo comando 'find' e não "linha-a-linha"
                 - https://github.com/burnash/gspread#finding-a-cell
 '''
 
