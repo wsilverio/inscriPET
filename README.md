@@ -2,10 +2,10 @@
  
 #### Sistema de cadastro de alunos para o projeto [sisPET](https://github.com/wsilverio/sisPET)
   
- **Licença: ** [Atribuição CC BY](http://creativecommons.org/licenses/by/4.0/)  
+ **Licença:** [Atribuição CC BY](http://creativecommons.org/licenses/by/4.0/)  
   
       
-**Dependências:  **
+**Dependências:**
 
  * [Google Spreadsheets Python API](https://github.com/burnash/gspread)
  * [ZBar bar code reader](http://zbar.sourceforge.net/)
