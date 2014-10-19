@@ -35,6 +35,9 @@
         - Função enviar_dados()
             - Fazer a busca do código de barras pelo comando 'find' e não "linha-a-linha"
                 - https://github.com/burnash/gspread#finding-a-cell
+            - Reservar a célula vazia logo que for localizada
+                - Isso evita que os dados sejam sobrescritos
+                    caso mais de um programa esteja rodando
 '''
 
 # planilhas, sistema, email, conexão (timeout), scanner
